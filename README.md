@@ -35,7 +35,7 @@ Now the easter egg of our project for which we really worked hard are the backgr
 
 In the making of the project we came up with several new ideas and tried our best to implement them with all our technical knowledge and skills.
 
-#HOPE YOU LIKE IT!
+## HOPE YOU LIKE IT!
 
 This project is created by
 1. Sheetal Kaushik
