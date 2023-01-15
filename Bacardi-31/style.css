@@ -1,0 +1,133 @@
+#mybody{
+    background-image: url("./cardimages/1385412.jpg");
+    min-width: 1440px;
+    min-height: 1080px;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+#mybody::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  #mybody {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.cards{
+    cursor: pointer;
+    height: 220px;
+    width: 130px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-color: plum;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+}
+.cardimages{
+    height: 200px;
+    width: 130px;
+}
+.cardspan{
+    color: rgb(210,210,210);
+}
+.parentdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 5vw;
+    position: relative;
+    top: 3vw;
+}
+.cardendimages{
+    height: 200px;
+    width: 130px;
+}
+.cardsplayed{
+    height: fit-content;
+    width: 130px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    animation: animate 3s ease;
+}
+.cards:hover{
+    box-shadow: 0 0 30px rgba(255,255,255,0.26), 0 0 70px rgb(26,132,19);
+}
+#playedcards{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 5px;
+    position: relative;
+    top: 2vw;
+}
+#sumid{
+    font-size: 1.5vw;
+    top: 1vw;
+    left: 1vw;
+    font-family: 'Playfair Display';
+    padding: 0.5vw;
+    background-color: rgba(250, 252, 212, 0.771);
+    border-radius: 1vw;
+}
+.Rulebook{
+    top: 35vh;
+    width: 70vw;
+    left: 15vw;
+    height: 30vh;
+    text-align: center;
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Pacifico';
+    margin: 0;
+    z-index: 2;
+    color: rgb(199, 239, 174);
+    background-color: rgba(63, 62, 49, 0.835);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.92);
+}
+#rulesbutton{
+    margin:1vw;
+    top: 1vw;
+    cursor: pointer;
+    height: 3.5vw;
+    width: 5.5vw;
+    border-radius: 8px;
+    color: beige;
+    background-color: rgba(0,0,0,0.3);
+}
+#rulesbutton:hover{
+    letter-spacing: 0.02em;
+    box-shadow: 0 0 20px rgba(255,255,255,0.26), 0 0 40px rgb(26, 132, 19);
+}
+.sumclass{
+    margin: 1vw;
+    font-family: 'Cinzel Decorative';
+}
+@keyframes animate{
+    from{width: 1px;}
+    to{
+        width: 130px;
+    }
+}
+#winnerid{
+    display: none;
+    font-family: 'Pacifico';
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(4, 9, 61);
+    /* text-shadow: 0 0 10px rgb(73, 151, 175) 0 0 20px rgb(44, 122, 223); */
+    background-color: rgba(243, 93, 23, 0.575);
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgb(4, 5, 66);
+    border-style: solid;
+    border-width: 2px;
+    z-index: 1;
+    position: absolute;
+    top: 25vh;
+    height: 50vh;
+    width: 70vw;
+    left: 15vw;
+}

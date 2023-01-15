@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,#heading,#main{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+  position: absolute;
+}
+#heading{
+  top:15vh;
+  left: 50vw;
+  transform: translateX(-50%);
+  font-size: 5vh;
+  text-shadow: 0 0 2px rgb(255, 192, 251), 0 0 8px bisque;
+  font-family: "Abril Fatface";
+}
+#main{
+width: 100vw;
+height: 100vh;
+}
+#intropara{
+  position: absolute;
+  top: 25vh;
+  left: 50vw;
+  text-shadow: 0 0 10px rgb(255, 192, 251), 0 0 30px bisque;
+  transform: translateX(-50%);
+  font-family: "Satisfy";
+  font-size: 3vh;
+  text-decoration: underline;
+}
+#projectsdiv{
+  position: absolute;
+  top: 40vh;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+.project{
+  max-width:130px;
+  position: absolute;
+
+}
+#project1{
+  /* left: 2vw; */
+  top: 5vh;
+}
+#project2{
+  left: 40vw;
+  top: 5vh;
+}
+#project3{
+  left: 20vw;
+  top: 20vh;
+}
+#project5{
+  left: 40vw;
+  top: 35vh;
+}
+#project4{
+  /* left: 5vw; */
+  top: 35vh;
+}
+a{
+  margin-top: 10px;
+  color: rgb(212, 137, 231);
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 25px;
+  text-shadow: 0 0 10px rgb(255, 192, 251), 0 0 30px bisque;
+}
+a:visited{
+  color: whitesmoke;
+}
+#projectspan{
+  font-size: 23px;
+  font-family: "Quicksand";
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgb(255, 192, 251), 0 0 30px bisque; 
+}
+.zoom {
+  width: 110px;
+  height: 110px;
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+img{
+  margin: 15px;
+}
+.projectname{
+  text-align: right;
+}

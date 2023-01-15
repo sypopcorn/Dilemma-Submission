@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+body {
+    display: flex;
+    background-color: #c7c7e4ce;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+    overflow: hidden;
+    color: #3c3c7e;
+
+}
+
+
+.container {
+    background-color: #EEF2FB;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 10px rgba(100, 100, 100, 0.1);
+    overflow: scroll;
+    /* overflow-x: hidden; */
+    /* scrollbar-color: ; */
+    height: 500px;
+    min-width: 425px;
+    max-width: 35%;
+    padding: 2rem;
+
+
+
+}
+
+/* 
+@media only screen and (max-width: 450px) {
+    .container {
+        min-width: 400px;
+    }
+} */
+
+
+@media only screen and (max-width: 450px) {
+    .container {
+        min-width: 100%;
+    }
+
+
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+button {
+    /* margin-top: 1vw; */
+    text-align: left;
+    background-color: #EEF2FB;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    /* border-color: none; */
+    /* border: none; */
+    border-color: #3c3c7e6c;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.child {
+    display: flex;
+    flex-direction: row;
+    /* padding: none; */
+    justify-content: center;
+}
+
+
+#child1 {
+    display: flex;
+    flex-direction: row;
+    /* padding: none; */
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+input {
+    width: 40%;
+    border-radius: 10%;
+    /* border: none; */
+    padding: .75rem;
+    background-color: #BCBCCD;
+    margin-right: 5rem;
+    text-align: center;
+}
+
+
+#inp {
+    /* width: 20%; */
+    border-radius: 10%;
+    /* border: none; */
+    /* padding: .75rem; */
+    /* background-color: #BCBCCD; */
+    margin-top: 6px;
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+#add {
+    text-align: center;
+    color: #EEF2FB;
+    background-color: #3d3d85e8;
+    /* position: absolute; */
+    padding: none;
+    float: right;
+    max-width: 60px;
+    min-width: 60px;
+
+
+
+}
+
+#delete {
+    text-align: center;
+    color: #EEF2FB;
+    background-color: #3d3d85e8;
+
+    max-width: 100px;
+    padding: none;
+
+    margin-left: 132px;
+
+
+
+}
+
+@media only screen and (max-width: 300px) {
+    #delete {
+        margin-left: 0;
+    }
+}
+
+
+#add:hover,
+#delete:hover {
+    background-color: #3c3c7e;
+}
+
+button:hover {
+    background-color: #7a7abd;
+}

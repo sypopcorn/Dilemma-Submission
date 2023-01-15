@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+    <script src="a_art.js"></script>
+    
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+        overflow:hidden;
+        }
+        canvas{
+            
+            z-index: 0;
+            position: absolute;
+        }
+        #switch,#reso{
+            z-index: 10;
+            position: absolute;
+            /* flo */
+        }
+        #reso{
+            top: 5vh;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <button id="switch"> <a href="indexB.html" style = "text-decoration: none; color: black;">Brightness mirror</a></button>
+        <button id="reso" onclick="resolutionscript()">Change resolution</button>
+    </main>
+    <script>
+        
+    </script>
+    <!-- <script id ='changesrc' src="a_art.js"></script> -->
+</body>
+
+</html>

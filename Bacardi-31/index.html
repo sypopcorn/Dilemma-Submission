@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bacardi 🍻🍻</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel Decorative|Fredericka the Great|Playfair Display">
+    <script src = "logic.js" defer></script>
+    <link rel="shortcut icon" href="bacardi.ico" type="image/x-icon">
+</head>
+<body id = "mybody">
+    <button onclick="showrules()" id="rulesbutton">Rules</button>
+    <span class="sumclass" id = "sumid">&NonBreakingSpace;Total Sum is: 0&NonBreakingSpace;</span>
+    <div class="Rulebook" id="MyRuleBook">
+        <h2>Rules:</h2>
+        <p>1. There are 6 cards valued from 1 to 6 in each suite.</p>
+        <p>2. The input will be just by clicking on the card.</p>
+        <p>3. The first player to make the sum exceed 31 loses the game.</p>
+    </div>
+    <div class="paarentplayed" id="playedcards">
+        <div class="cardsplayed" id="card1">
+            <img src="./cardimages/End.png" alt="error" class="cardendimages" id="playedcardsno1">
+        </div>
+        <div class="cardsplayed" id="card2">
+            <img src="./cardimages/End.png" alt="error" class="cardendimages" id="playedcardsno2">
+        </div>
+        <div class="cardsplayed" id="card3">
+            <img src="./cardimages/End.png" alt="error" class="cardendimages" id="playedcardsno3">
+        </div>
+        <div class="cardsplayed" id="card4">
+            <img src="./cardimages/End.png" alt="error" class="cardendimages" id="playedcardsno4">
+        </div>
+        <div class="cardsplayed" id="card5">
+            <img src="./cardimages/End.png" alt="error" class="cardendimages" id="playedcardsno5">
+        </div>
+        <div class="cardsplayed" id="card6">
+            <img src="./cardimages/End.png" alt="error" class="cardendimages" id="playedcardsno6">
+        </div>
+        <div class="cardsplayed" id="card7">
+            <img src="./cardimages/End.png" alt="error" class="cardendimages" id="playedcardsno7">
+        </div>
+        <div class="cardsplayed" id="card8">
+            <img src="./cardimages/End.png" alt="error" class="cardendimages" id="playedcardsno8">
+        </div>
+        <div class="cardsplayed" id="card9">
+            <img src="./cardimages/End.png" alt="error" class="cardendimages" id="playedcardsno9">
+        </div>
+        <div class="cardsplayed" id="card10">
+            <img src="./cardimages/End.png" alt="error" class="cardendimages" id="playedcardsno10">
+        </div>
+        <div class="cardsplayed" id="card11">
+            <img src="./cardimages/End.png" alt="error" class="cardendimages" id="playedcardsno11">
+        </div>
+        <div class="cardsplayed" id="card12">
+            <img src="./cardimages/End.png" alt="error" class="cardendimages" id="playedcardsno12">
+        </div>
+    </div>
+    <div class="parentdiv" id="containerdiv">
+        <div class="cards" id="cardno1">
+            <span class="cardspan" id="cardno1span">Remaining:4</span>
+        <img src="./cardimages/1S.png" alt="error" class="cardimages" id="cardno1image">
+        </div>
+        <div class="cards" id="cardno2">
+            <span class="cardspan" id="cardno2span">Remaining:4</span>
+        <img src="./cardimages/2S.png" alt="error" class="cardimages" id="cardno2image">
+        </div>
+        <div class="cards" id="cardno3">
+            <span class="cardspan" id="cardno3span">Remaining:4</span>
+        <img src="./cardimages/3S.png" alt="error" class="cardimages" id="cardno3image">
+        </div>
+        <div class="cards" id="cardno4">
+            <span class="cardspan" id="cardno4span">Remaining:4</span>
+        <img src="./cardimages/4S.png" alt="error" class="cardimages" id="cardno4image">
+        </div>
+        <div class="cards" id="cardno5">
+            <span class="cardspan" id="cardno5span">Remaining:4</span>
+        <img src="./cardimages/5S.png" alt="error" class="cardimages" id="cardno5image">
+        </div>
+        <div class="cards" id="cardno6">
+            <span class="cardspan" id="cardno6span">Remaining:4</span>
+        <img src="./cardimages/6S.png" alt="error" class="cardimages" id="cardno6image">
+        </div>
+    </div>
+    <div class="winnerclass" id="winnerid">
+        <p id="winnerpara"></p>
+        
+        
+    </div>
+</body>
+</html>
